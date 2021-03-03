@@ -1,6 +1,6 @@
 {
-    "subscription_id": "Your Azure Subscription ID",
-    "resource_group": "Your Resource Group Name",
-    "workspace_name": "Your Azure ML Workspace Name",
-    "location": "Azure ML Location"
+    "subscription_id": "9c699c12-4a28-4981-8df2-f0c7d98a82cb",
+    "resource_group": "mlops-squad1",
+    "workspace_name": "mlops-squad1-ws",
+    "location": "eastus"
 }

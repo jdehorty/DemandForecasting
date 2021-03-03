@@ -1,3 +1,4 @@
+# %%
 from zipfile import ZipFile
 import requests
 import pandas as pd
@@ -21,7 +22,7 @@ location = config["location"]
 cli_auth = AzureCliAuthentication()
 
 # Get workspace
-#ws = Workspace.from_config(auth=cli_auth)
+# ws = Workspace.from_config(auth=cli_auth)
 ws = Workspace.get(
         name=workspace_name,
         subscription_id=subscription_id,
